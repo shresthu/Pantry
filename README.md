@@ -2,20 +2,12 @@
 
 A personal learning project. Things you have at home, and when they expire.
 
-It uses the same tools as Rénov — Express 5 + TypeScript + Prisma + a separate
-worker process on the backend, Expo + expo-router + TanStack Query on the phone —
-but a different, much smaller product, so you learn the patterns rather than
-copy the code.
+It uses tools — Express 5 + TypeScript + Prisma + a separate
+worker process on the backend, Expo + expo-router + TanStack Query on the phone.
 
 **Day one does almost nothing on purpose.** The API answers `GET /health`, the
 app shows whether it got an answer, and the worker starts and idles. Everything
 else is yours to build, in order, from [`LEARNING.md`](LEARNING.md).
-
-## The one rule
-
-Type it yourself. Read docs, read Rénov, ask an AI to *explain* something — but
-don't paste a generated solution. If you get stuck for more than an hour on one
-step, ask for a hint, not the answer.
 
 ## Layout
 
